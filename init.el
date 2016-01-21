@@ -20,3 +20,6 @@
 
 ;;accented characters
 (require 'iso-transl)
+
+;;add newline at end of files
+(setq require-final-newline t)
