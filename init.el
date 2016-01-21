@@ -17,3 +17,6 @@
 
 ;;use spaces
 (setq-default indent-tabs-mode nil)
+
+;;accented characters
+(require 'iso-transl)
