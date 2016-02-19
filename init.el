@@ -27,3 +27,14 @@
 (require 'saveplace)                          ;; get the package
 (setq save-place-file "~/.emacs.d/saveplace") ;; keep my ~/ clean
 (setq-default save-place t)                   ;; activate it for all buffers
+
+;; Line and column numbers
+(setq line-number-mode t)
+(setq column-number-mode t)
+
+;; UTF-8
+(setq locale-coding-system 'utf-8)
+(set-terminal-coding-system 'utf-8)
+(set-keyboard-coding-system 'utf-8)
+(set-selection-coding-system 'utf-8)
+(prefer-coding-system 'utf-8)
